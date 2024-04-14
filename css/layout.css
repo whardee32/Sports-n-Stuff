@@ -93,6 +93,9 @@ button .ghost {
 .header img {
     border-radius: 5px;
     box-shadow: 0px 3px 6px #222;
+}
+
+.landing-page {
     max-width: 300px;
     height: auto;
     object-fit: cover;
@@ -122,4 +125,48 @@ h2 {
     height: 300px;
     width: 250px;
     background-color: lightgrey;
+
+}
+
+/* CSS layout for news page*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+.main-article {
+    grid-column: 1;
+    grid-row: 1 ;
+    background-color: lightblue;
+    padding: 20px;
+    height: 200px;
+}
+
+.other-articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 1;
+    grid-row: 3;
+    gap: 20px;
+}
+
+.article {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.news-updates {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 1;
+    grid-row: 5;
+    gap: 20px;
+}
+
+.update {
+    background-color: lightcoral;
+    padding: 20px;
+main
 }
