@@ -102,7 +102,24 @@ h1 {
     font-weight: 300;
 }
 
-.news-section {
+h2 {
+    font-weight: 400;
+}
+
+.card-section {
     width: 100%;
     padding: 5%;
+}
+
+.section-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.info-card {
+    display: flex;
+    height: 300px;
+    width: 250px;
+    background-color: lightgrey;
 }
