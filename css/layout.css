@@ -168,7 +168,6 @@ h2 {
 .update {
     background-color: lightcoral;
     padding: 20px;
-<<<<<<< HEAD
 main
 }
 
@@ -176,6 +175,12 @@ main
     text-align: center;
     margin-top: 400px;
 
-=======
->>>>>>> e05929009aaafdc4cbfb5ebae75a3b2937696408
+}
+
+.btn-primary2 {
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+
 }
