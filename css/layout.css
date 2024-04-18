@@ -20,6 +20,11 @@
     color: white;
 }
 
+.navtext:hover {
+    color: darkgreen;
+    cursor: pointer;
+}
+
 .button_outline { 
     border-color: black;
     border-radius: 5px;
