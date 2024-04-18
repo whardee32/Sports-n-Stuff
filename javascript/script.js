@@ -36,8 +36,9 @@ function printTeams(teamData) {
         let abr = titleData["abbreviation"];
         let loc = titleData["location"];
 
-        let teamDiv = document.createElement("div");
+        let teamDiv = document.createElement("a");
         teamDiv.classList.add("info-card");
+        teamDiv.href = "./basketball.html"
 
         let teamImg = document.createElement("img");
         teamImg.src = titleData["logo_dark"]
