@@ -7,7 +7,7 @@ fetch(
 
 
 
-// get the data to import
+// get the data to import and put it in cards
 function printTeams(teamData) {
     let teams = Object.keys(teamData);
 
