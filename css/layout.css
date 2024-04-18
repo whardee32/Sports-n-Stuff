@@ -131,11 +131,16 @@ h3 {
     font-size: 1.3em;
 }
 
+.text-white {
+    color: white;
+}
+
 .card-container {
     width: 100%;
     padding: 1% 5%;
     display: flex;
     justify-content: center;
+    background-color: darkgreen;
 }
 
 .card-section {
@@ -144,6 +149,10 @@ h3 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.section-white {
+    background-color: white;
 }
 
 .section-cards {
@@ -246,4 +255,25 @@ h3 {
     text-align: center;
     padding: 5px;
 
+}
+
+.custom-shape-divider-bottom-1713417689 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1713417689 svg {
+    position: relative;
+    display: block;
+    width: calc(203% + 1.3px);
+    height: 59px;
+}
+
+.custom-shape-divider-bottom-1713417689 .shape-fill {
+    fill: #006400;
 }
