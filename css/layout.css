@@ -326,11 +326,7 @@ h3 {
 
       .header h1 {
         
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-       
+        transform-origin: 0 0;
         animation: spin 5s forwards;
       }
       
