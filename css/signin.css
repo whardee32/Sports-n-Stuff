@@ -89,3 +89,11 @@ body {
 .navtext1 {
     color: white;
 }
+
+.username {
+    color: white;
+}
+
+.underline {
+    text-decoration: underline;
+  }

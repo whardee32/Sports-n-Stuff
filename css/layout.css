@@ -310,3 +310,16 @@ h3 {
   .NBApic img {
     max-width: 100%; /* Ensure images don't exceed the width of their container */
     height: auto; /* Maintain aspect ratio */ }
+
+    .navtext1 {
+        color: white;
+        ;
+    }
+    
+    .username {
+        color: white;
+    }
+    
+    .underline {
+        text-decoration: underline;
+      }
