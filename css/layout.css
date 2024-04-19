@@ -294,23 +294,23 @@ h3 {
 
 .NBApic-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Five columns each taking up equal space */
-    gap: 10px; /* Gap between grid items */
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px; 
     border: solid black 2px;
   }
   
   .NBApic {
-    width: 100%; /* Ensure each item takes up the full width of its grid cell */
+    width: 100%; 
     border-radius: 5px;
     align-items: center;
     margin-top: 15%;
   }
   
-  /* If you want the images to be responsive */
+  
   .NBApic img {
-    max-width: 100%; /* Ensure images don't exceed the width of their container */
-    height: auto; /* Maintain aspect ratio */ }
-
+    max-width: 100%; 
+    height: auto; 
+  }
     .navtext1 {
         color: white;
         ;
@@ -322,4 +322,23 @@ h3 {
     
     .underline {
         text-decoration: underline;
+      }
+
+      .header h1 {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+       
+        animation: spin 5s forwards;
+      }
+      
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
       }

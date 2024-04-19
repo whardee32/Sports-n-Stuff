@@ -27,7 +27,7 @@ function printTeams(teamData) {
 
     console.log(teamData[teamsArray[1]])
     
-    // Loop through the teams to get info and add elements to HTML
+    
     for (let index in teamsArray) {
         let teamIndex = teamsArray[index];
         let titleData = teamData[teamIndex];
@@ -61,11 +61,11 @@ function printTeams(teamData) {
 
 const navText1 = document.querySelector('.navtext1');
 
-// Get username from cookie
+
 const cookieValue = document.cookie.split('; ').find(cookie => cookie.startsWith('username='));
 const username = cookieValue ? cookieValue.split('=')[1] : '';
 
 if (username) {
   navText1.textContent = username;
-  navText1.classList.add('underline'); // Add a class for underlining
+  navText1.classList.add('underline'); 
 }
